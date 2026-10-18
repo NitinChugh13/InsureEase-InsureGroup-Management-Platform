@@ -1,0 +1,9 @@
+target/
+.mvn/dist/
+.mvn/repository/
+*.log
+.DS_Store
+.idea/
+*.iml
+.vscode/
+.env

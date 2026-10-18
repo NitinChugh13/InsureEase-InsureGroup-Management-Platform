@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="ie-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="ie-emerald" x1="12" y1="10" x2="40" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="ie-cobalt" x1="26" y1="12" x2="54" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#ie-bg)"/>
+  <!-- Outer Shield Left & Bottom Ribbon (Emerald) -->
+  <path d="M32 8L12 15.5V31.5C12 44.4 20.5 53.3 32 57C36.2 55.6 39.8 53.4 42.7 50.5L36.8 44.6C35.3 46.1 33.7 47.2 32 48C24.4 44.8 20 38.6 20 31.2V21.1L32 16.6L38.2 18.9L42.5 12.1L32 8Z" fill="url(#ie-emerald)"/>
+  <!-- Outer Shield Right & Inner Interlock Ribbon (Cobalt-Cyan) -->
+  <path d="M32 8L52 15.5V31.5C52 41.2 46.8 48.9 39.2 53.5L34.5 46.7C39.8 43.3 44 37.9 44 31.2V21.1L32 16.6L25.5 28.4C23.8 31.5 25.1 35.4 28.3 36.9C31.4 38.4 35.2 37.1 36.8 34L41.2 25.5L47.8 29.2L43.2 37.8C39.5 44.6 31.1 47.2 24.2 43.7C17.4 40.2 14.8 31.9 18.4 25L27.5 8.9L32 8Z" fill="url(#ie-cobalt)"/>
+  <!-- Core Protection Node -->
+  <circle cx="32" cy="31" r="4.5" fill="#10B981"/>
+</svg>
